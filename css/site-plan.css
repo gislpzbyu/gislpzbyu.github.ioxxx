@@ -13,9 +13,9 @@
     
     img{max-width: 100%}
     
-    h1, h2, h3, h4, h5, h6{font-family: var(--heading-font);color:}
+    h1, h2, h3, h4, h5, h6{font-family: var(--heading-font);color:var(--primary-color)}
     
-    header{padding: 1em;text-align: center;color: var(--accent2-color);background-color: }
+    header{padding: 1em;text-align: center;color: var(--accent2-color);background-color: var(--secondary-color)
     
     header > h1{color: }p{font-family: var(--paragraph-font);
         color:;padding: 1em}
