@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+    background-color: aliceblue;
+
+}
+
+header,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: lightsteelblue;
+    color: whitesmoke;
+
+}
+
+main section p {
+    margin: 5px;
+    border: 1px solid #bbb;
+    padding: 5px;
+    background-color: #eee;
+}
