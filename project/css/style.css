@@ -1,6 +1,7 @@
 body {
     font-size: 16px;
-    background-color: cadetblue;
+    background-color: #775144;
+    font-family: 'Roboto, Noto Sants, Baloo';
 
 }
 
@@ -9,20 +10,69 @@ main,
 footer {
     max-width: 960px;
     margin: 0 auto;
-    font-weight: 900;
-    font-family: Roboto, Noto Sants, Baloo;
+    font-family: 'Roboto, Noto Sants, Baloo';
+    border-radius: 15px;
 
 }
 
 header {
-    background-color: paleturquoise;
+    background-color: #c09891;
     color: mediumaquamarine;
+    font-family: 'Roboto, Noto Sants, Baloo';
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: space-around;
 
+}
+
+h1 {
+    color: #2a0800;
+    font-family: 'Roboto, Noto Sants, Baloo';
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+
+header nav ul li a {
+    color: #6d6875;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Roboto, Noto Sants, Baloo';
+    display: block;
+    padding: .5rem;
 }
 
 main section p {
     margin: 5px;
-    border: 1px solid #bbb;
+    border: 1px solid #bea8a7;
     padding: 5px;
-    background-color: #eee;
+    background-color: #f4dbd8;
+    font-family: 'Roboto, Noto Sants, Baloo';
+    border-radius: 15px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #bea8a7;
+    font-family: 'Roboto, Noto Sants, Baloo';
+    font-size: 15px;
+    padding: .8rem;
+}
+
+.social {
+    text-align: right;
+
+}
+
+.social img {
+    width: 70px;
+    height: auto;
+
 }
