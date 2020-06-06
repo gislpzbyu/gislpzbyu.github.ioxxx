@@ -1,32 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Giselle Lopez Garcia | WDD 130 Assignment Portal</title>
+    <meta name="author" content="Giselle Lopez Garcia" />
+    <meta
+      name="description"
+      content="The website project to provide information about the services that this hotel offers to meet the needs of temple patrons who come to serve in the temple or who participate in events."
+    />
+    <title>Temple Inn & Suites | Your Home Away From Home | 215-829-9999</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <header>
-      <h1>WDD 130 Assignment Portal</h1>
+      <img src="images/logo.png" alt="Temple Logo" />
+      <h1>Temple Inn & Suites</h1>
+      <nav>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="mytemple.html">Temple Spotlight</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
-      <h2>Assignment Links</h2>
-      <ul>
-        <li>Week 1: <a href="#">No Web Submission</a></li>
-        <li>Week 2: <a href="site-plan.html">The Temple Inn Site Plan</a></li>
-        <li>
-          Week 3 and 4: <a href="project/index.html">Template Inn & Suites</a>
-        </li>
-        <li><a href="fixedhtml.html">Troubleshooting Code</a></li>
-        <li>Week 6:<a href="week6-layout.html">CSS Positioning</a></li>
-      </ul>
+    <main>      
+      <div class="banner">
+        <img src="images/lobby.jpg" alt="hero image">
+        <div class="action">
+            <p>
+                Get a place!
+            </p>
+            <button>Book Now</button>
+        </div>
+    </div>
+      <div class="wrapper">
+      <section>
+        <h2>Your Home Away from Home</h2>
+        <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis excepturi doloribus minus, nemo aperiam ipsum, aliquid assumenda ipsa rerum odit itaque aliquam nisi culpa ab quo quibusdam ea asperiores odio unde sapiente quia, amet quos quae! Quis perspiciatis aut suscipit expedita nobis quos! Aliquid eligendi eos ipsum saepe expedita.
+        </p>
+      </section>
+      <picture>
+        <img src="images/bedroom.jpg" alt="Room" />
+      </picture>
+      <picture><img src="images/wedding.jpg" alt="Wedding Receptions" id="wedding"/></picture>
+      <section>
+        <h2>Wedding Receptions</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae soluta necessitatibus sed! Sapiente tempore modi ullam vel voluptatem? At id corporis accusamus fuga maiores vitae obcaecati ab sunt laboriosam inventore, atque itaque, officia natus quidem est cum perferendis pariatur? Eius, recusandae necessitatibus repudiandae eaque sunt debitis adipisci temporibus nisi neque.
+        </p>
+      </section>
+        <section class="family">
+          <h2>Family Search Center</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur placeat repellendus voluptatum excepturi quos rerum accusantium modi. Esse pariatur eaque laborum enim iusto tempora natus commodi iste assumenda nisi consectetur ex beatae, eos quaerat minus quis, error exercitationem, nulla rem autem perferendis architecto quam! Quisquam adipisci beatae nobis animi?
+          </p>
+        </section>
     </main>
     <footer>
-      &copy;2020 | Giselle Lopez Garcia | Villahermosa, Tabasco, Mexico |
-      <a href="https://www.byui.edu/online" target="_blank"
-        >BYU-Idaho Online Learning</a
-      >
+      <div class="contact">
+        📍 Temple Inn & Suites Headquarters 355 Wisconsin Avenue Bethseda, MD
+        20814
+      </div>
+      <div class="social">
+        <a
+          href="https://www.facebook.com"
+          title="This links to our Facebook Page. Follow Us."
+          ><img src="images/facebook-icon.png" alt="Facebook Icon"
+        /></a>
+        <a
+          href="https://www.twitter.com"
+          title="This links to our Twitter Account. Follow Us."
+          ><img src="images/twitter-icon.png" alt="Twitter Icon"
+        /></a>
+        <a
+          href="https://www.instagram.com"
+          title="This links to our Instagram Account. Follow Us."
+          ><img src="images/instagram-icon.png" alt="Instagram Icon"
+        /></a>
+      </div>
+      <div class="phone">
+        ☎ 215-829-9999
+      </div>
+
+      <div class="email">
+        ✉ info@templinn.com
+      </div>
+
+      &copy;2020 Temple Inn & Suites | All Rights Reserved Privacy and Cookie
+      Statement | Giselle Lopez Garcia
     </footer>
   </body>
 </html>
