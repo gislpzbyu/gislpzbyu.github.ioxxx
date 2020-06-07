@@ -19,7 +19,7 @@ footer {
 
 header {
     background-color: #A74538;
-    color: 283845;
+    color: #283845;
     font-family: 'Roboto, Noto Sants, Baloo';
     font-size: 22px;
     display: flex;
@@ -52,7 +52,7 @@ header nav ul li a {
 
 a:focus,
 .active {
-    color: 283845;
+    color: black;
     border-bottom: 1px solid #F2BA49;
     padding-bottom: .2rem;
 
@@ -98,7 +98,7 @@ header nav ul li a:hover {
 .wrapper {
     position: relative;
     display: grid;
-    grid-gap: 2erm;
+    grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
     background: #F2FFFF;
 
@@ -119,7 +119,7 @@ h2 {
     font-size: 1.5em;
     text-align: center;
     font-family: Pacifico;
-    color: 420000;
+    color: black;
 }
 
 img {
