@@ -72,7 +72,7 @@ header nav ul li a:hover {
 .banner img {
     grid-column: 1 / -1;
     grid-row: 1;
-    width: 970px;
+    width: 100%;
     height: 250px;
     border-radius: 15px;
 }
@@ -178,5 +178,11 @@ footer {
             display: block;
         }
 
+        }
+
+        @media screen and (max-width: 550px) {
+            .banner {
+                display: block;
+            }
         }
     }
