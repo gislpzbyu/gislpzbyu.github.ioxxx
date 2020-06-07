@@ -52,7 +52,7 @@ header nav ul li a {
 
 a:focus,
 .active {
-    color: black;
+    color:black;
     border-bottom: 1px solid #F2BA49;
     padding-bottom: .2rem;
 
@@ -68,9 +68,9 @@ header nav ul li a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+
 .banner img {
     grid-column: 1 / -1;
-    /* the -1 is just a fancy way to say "span all the columns" */
     grid-row: 1;
     width: 970px;
     height: 250px;
@@ -119,7 +119,7 @@ h2 {
     font-size: 1.5em;
     text-align: center;
     font-family: Pacifico;
-    color: black;
+    color:black;
 }
 
 img {
@@ -178,10 +178,5 @@ footer {
             display: block;
         }
 
-        @media screen and (max-width: 10px) {
-            .banner {
-                display: block;
-            }
         }
     }
-}
