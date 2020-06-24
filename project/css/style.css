@@ -121,13 +121,6 @@ h2 {
     font-family: Pacifico;
     color:black;
 }
-
-img {
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-shadow: 5px 5px 5px #999;
-}
-
 picture img {
     width: 87%;
     right: 10px;
