@@ -107,6 +107,8 @@ header nav ul li a:hover {
     text-align: justify;
     margin: 1em 3em;
     padding: 1em;
+    padding-top: 30px;
+    
 }
 
 .wrapper h1 {
