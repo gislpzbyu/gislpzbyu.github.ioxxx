@@ -66,7 +66,7 @@ header nav ul li a:hover {
 .banner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+}                       
 
 
 .banner img {
@@ -94,14 +94,14 @@ header nav ul li a:hover {
     font-size: 1.2em;
 }
 
-.wrapper {
+.wrappertwo {
     display: flex;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: #ffffff;
 }
 
-.wrapper p {
+.wrappertwo p {
     color: black;
     grid-column: 2/4;
     text-align: justify;
@@ -111,7 +111,7 @@ header nav ul li a:hover {
     
 }
 
-.wrapper h1 {
+.wrappertwo h1 {
     color: black;
     text-align: center;
     grid-column: 1/5;
