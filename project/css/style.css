@@ -29,6 +29,10 @@ header {
 
 }
 
+main {
+    background-color: #ffffff;
+}
+
 h1 {
     color: white;
     font-family: 'Roboto, Noto Sants, Baloo';
@@ -52,7 +56,7 @@ header nav ul li a {
 
 a:focus,
 .active {
-    color:black;
+    color: black;
     border-bottom: 1px solid #F2BA49;
     padding-bottom: .2rem;
 
@@ -94,13 +98,14 @@ header nav ul li a:hover {
     background-color: #e7c24f;
     font-size: 1.2em;
 }
+
 /*Home*/
 .wrapper {
     position: relative;
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    background: #F2FFFF;
+    background: #ffffff;
 
 }
 
@@ -119,8 +124,9 @@ h2 {
     font-size: 1.5em;
     text-align: center;
     font-family: Pacifico;
-    color:black;
+    color: black;
 }
+
 picture img {
     width: 87%;
     right: 10px;
@@ -151,7 +157,7 @@ picture img {
     margin: 1em 3em;
     padding: 1em;
     padding-top: 30px;
-    
+
 }
 
 .wrappertwo h1 {
@@ -200,6 +206,49 @@ picture img {
     text-align: center;
 }
 
+.templeHeaderImg {
+    background: #ffffff;
+}
+
+.templeHeaderImg img {
+    width: 75%;
+    padding-left: 9em;
+}
+
+.templeHeaderImg h1 {
+    color: black;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.templeHeaderImg p {
+    text-align: justify;
+    padding: 3em;
+}
+
+.third {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.third section {
+    display: grid;
+    margin: 25px;
+    border: 5px solid #F2D492;
+    padding: 10px;
+    background-color: #F1AB86;
+    font-family: 'Roboto, Noto Sants, Baloo';
+    font-size: .5em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.third img {
+    margin: 5em;
+    width: 70%;
+}
 
 footer {
     display: grid;
@@ -237,11 +286,11 @@ footer {
             display: block;
         }
 
-        }
+    }
 
-        @media screen and (max-width: 550px) {
-            .banner {
-                display: block;
-            }
+    @media screen and (max-width: 550px) {
+        .banner {
+            display: block;
         }
     }
+}
