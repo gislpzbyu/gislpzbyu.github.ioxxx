@@ -6,7 +6,7 @@ body {
 
 }
 
-header,
+header, 	
 main,
 footer {
     max-width: 1000px;
@@ -237,7 +237,6 @@ picture img {
     display: grid;
     margin: 25px;
     border: 5px solid #F2D492;
-    padding: 10px;
     background-color: #F1AB86;
     font-family: 'Roboto, Noto Sants, Baloo';
     font-size: .5em;
@@ -249,6 +248,12 @@ picture img {
     margin: 5em;
     width: 70%;
 }
+
+.third h1 {
+    font-size: 3em;
+    color: black;
+}
+
 
 footer {
     display: grid;
