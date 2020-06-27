@@ -211,14 +211,14 @@ picture img {
 }
 
 .templeHeaderImg img {
-    width: 75%;
-    padding-left: 9em;
+    width: 100%;
 }
 
 .templeHeaderImg h1 {
     color: black;
     text-align: center;
     padding-top: 0.5em;
+    font-family: Pacifico;
 }
 
 .templeHeaderImg p {
@@ -235,23 +235,25 @@ picture img {
 
 .third section {
     display: grid;
-    margin: 25px;
+    margin: 35px;
     border: 5px solid #F2D492;
     background-color: #F1AB86;
     font-family: 'Roboto, Noto Sants, Baloo';
-    font-size: .5em;
+    font-size: .65em;
     border-radius: 15px;
     text-align: center;
 }
 
 .third img {
-    margin: 5em;
+    margin: 60px;
     width: 70%;
+    border: 5px solid #F2D492;
 }
 
 .third h1 {
     font-size: 3em;
     color: black;
+    font-family: Pacifico;
 }
 
 
@@ -298,4 +300,34 @@ footer {
             display: block;
         }
     }
+
+    @media screen and (max-width: 550px) {
+        .templeHeaderImg {
+            display: block;
+        }
+    }
+    
+    @media screen and (max-width: 550px) {
+        .third {
+            display: block;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .third {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .wrappertwo {
+            display: block;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .second {
+            display: block;
+        }
+    }
+    
+
 }
