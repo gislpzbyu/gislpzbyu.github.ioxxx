@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Giselle Lopez Garcia" />
+    <meta
+      name="description"
+      content="The website project to provide information about the services that this hotel offers to meet the needs of temple patrons who come to serve in the temple or who participate in events."
+    />
+    <title>Temple Inn & Suites | Your Home Away From Home | 215-829-9999</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Temple Logo" />
+      <h1>Temple Inn & Suites</h1>
+      <nav>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="mytemple.html">Temple Spotlight</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="banner">
+        <img src="images/lobby.jpg" alt="hero image" />
+        <div class="action">
+          <p>
+            Get a place!
+          </p>
+          <button>Book Now</button>
+        </div>
+      </div>
+      <div class="message">
+      <p>Aware of the serious concerns that COVID-19 is causing around the world, we at NH Hotel Group would like to re-emphasize our commitment to the health and safety of all our guests and collaborators in these times of uncertainty. Our thoughts are with all those affected across the different countries, their families and loved ones.<br>
+        We want to reassure you that we are monitoring the COVID-19 outbreak situation closely and following the guidelines of the global and local health authorities to ensure that we are prepared to address the current circumstances. Our main priority continues to be the wellbeing and safety of our guests and team members at all times.In this sense, we are taking maximum precautions in our hotels, applying the recommendations of the World Health Organization and the health experts. All our team members have received specific guidelines and enhanced cleaning and hygiene measures have been put in place across all properties, aiming to provide safe and clean environments for our guests and colleagues. 
+    </p>
+  </div>
+<div class="container">
+    <div class="box b1">
+        <h3>Guests</h3>
+    <input type="text" size="15px"><br>
+    </div>
+    <div class="box b2">  
+      <h3>Start Date</h3>
+        <label for="startdate"></label>
+        <input type="date" id="startdate" name="start_date">
+    </div>
+    <div class="box b3">
+      <h3>End Date</h3>
+        <label for="enddate"></label>
+                <input type="date" id="enddate" name="end_date">
+    </div>
+  </div>
+      <form action="post">
+        <fieldset>
+            <legend>Enter guest information:</legend>
+        <ul class="form">
+            <li>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email">
+            </li>
+            <li>
+                <label for="location">Phone Number:</label>
+                <input type="number" id="phone" name="user_phone">
+            </li>
+        </ul>
+        </fieldset>
+    </form>
+    <form action="post">
+        <fieldset>
+            <legend>Payment:</legend>
+        <ul class="form">
+            <li>
+              <label for="cardtype">Card type:</label>
+              <select required name="card_type" id="cardtype">
+                  <option value="">Select a card type</option>
+                  <option value="Credit">Credit</option>
+                  <option value="Debit">Debit</option>
+                 
+              </select>
+            </li>
+            <li>
+                <label for="name">Full Name:</label>
+                <input type="name" id="cardname" name="user_name">
+            </li>
+            <li>
+                <label for="number">Card Number:</label>
+                <input type="text" id="number" name="user_number">
+            </li>
+            <li>
+                <label for="startdate">Expiration Date:</label>
+                <input type="date" id="startdate" name="start_date">
+            </li>
+            <li>
+              <label for="number">CVV:</label>
+              <input type="text" id="location" name="user_phone">
+          </li>
+  
+                <button type="submit">Request Reservation</button>
+            
+        </ul>
+        </fieldset>
+    </form>
+    <h1>Thank you for reserve with us!<br>
+      Enjoy your experience!</h1>  
+</div>
+    </main>
+    <footer>
+      <div class="contact">
+        📍 Temple Inn & Suites Headquarters
+        <br />
+        355 Wisconsin Avenue <br />
+        Bethseda, MD 20814 <br />
+        ☎ 215-829-9999
+        <br />
+        ✉ info@templinn.com
+      </div>
+      <div class="social">
+        <a
+          href="https://www.facebook.com"
+          title="This links to our Facebook Page. Follow Us."
+          ><img src="images/facebook-icon.png" alt="Facebook Icon"
+        /></a>
+        <a
+          href="https://www.twitter.com"
+          title="This links to our Twitter Account. Follow Us."
+          ><img src="images/twitter-icon.png" alt="Twitter Icon"
+        /></a>
+        <a
+          href="https://www.instagram.com"
+          title="This links to our Instagram Account. Follow Us."
+          ><img src="images/instagram-icon.png" alt="Instagram Icon"
+        /></a>
+      </div>
+      <p class="copyright">
+        Temple Inn & Suites | All Rights Reserved Privacy and Cookie Statement |
+        Giselle Lopez Garcia
+      </p>
+    </footer>
+  </body>
+</html>
