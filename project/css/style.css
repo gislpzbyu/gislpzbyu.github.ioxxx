@@ -360,6 +360,14 @@ footer {
             display: block;
         }
     }
-
-
+    @media screen and (max-width: 550px) {
+        .container {
+            display: block;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .message {
+            display: block;
+        }
+    }
 }
