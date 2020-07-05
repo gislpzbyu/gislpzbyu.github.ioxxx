@@ -1,0 +1,43 @@
+div.activity {
+    margin: 0 auto;
+    width: 60%;
+}
+
+section {
+    width: 50%;
+    border: 1px solid;
+}
+
+.box2 {
+    margin: 0 auto;
+}
+
+.box3 {
+    margin-left: auto;
+}
+
+.box4 {
+    margin: 0 auto;
+}
+
+.box1 p:nth-of-type(1),
+.box2 p:nth-of-type(1),
+.box3 p:nth-of-type(1),
+.box4 p:nth-of-type(3),
+.box4 p:nth-of-type(4) {
+    text-align: left;
+}
+
+.box1 p:nth-of-type(2),
+.box2 p:nth-of-type(2),
+.box3 p:nth-of-type(2),
+.box4 p:nth-of-type(2) {
+    text-align: center;
+}
+
+.box1 p:nth-of-type(3),
+.box2 p:nth-of-type(3),
+.box3 p:nth-of-type(3),
+.box4 p:nth-of-type(1) {
+    text-align: right;
+}
