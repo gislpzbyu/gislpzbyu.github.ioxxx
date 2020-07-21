@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Giselle Lopez Garcia" />
+    <meta name="description" content="PENDIENTE">
+    <title>Stock Market Trading Academy</title>
+    <link rel="stylesheet" href="css/css.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Stock Market Trading Academy" />
+        <h1>Stock Market Trading Academy</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <img src="images/hero.jpg" alt="hero image" />
+        </div>
+        <div class="message">
+            <p>If you came to this section after reading the information from our courses, and are interested in being
+                part of our elite teachings, follow the procedure in the two sections below. Enter your personal data,
+                and proceed to make the payment of the course of your choice and preference. </p>
+        </div>
+        <form action="post">
+            <fieldset>
+                <legend>Enter Your Information: </legend>
+                <ul class="form">
+                    <li>
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                    <li>
+                        <label for="location">Phone Number:</label>
+                        <input type="number" id="phone" name="user_phone">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+        <form action="post" class="form">
+            <fieldset>
+                <legend>Payment:</legend>
+                <ul class="form">
+                    <li>
+                        <label for="coursetype">Course of your Interest: </label>
+                        <select required name="course_type" id="coursetype">
+                            <option value="">Select a card type</option>
+                            <option value="beginners">Beginners</option>
+                            <option value="intermedium">Intermedium</option>
+                            <option value="advanced">Advanced</option>
+
+                        </select>
+                    </li>
+                    <li>
+                        <label for="cardtype">Card Type:</label>
+                        <select required name="card_type" id="cardtype">
+                            <option value="">Select a card type</option>
+                            <option value="Credit">Credit</option>
+                            <option value="Debit">Debit</option>
+
+                        </select>
+                    </li>
+                    <li>
+                        <label for="name">Card Holder:</label>
+                        <input type="text" id="cardname" name="user_name">
+                    </li>
+                    <li>
+                        <label for="number">Card Number:</label>
+                        <input type="number" id="cardnumber" name="user_number">
+                    </li>
+                    <li>
+                        <label for="startdate">Expiration Date:</label>
+                        <input type="date" id="expirationdate" name="start_date">
+                    </li>
+                    <li>
+                        <label for="number">CVV:</label>
+                        <input type="number" id="location" name="user_phone">
+                    </li>
+                    <br>
+                    <button type="submit">Pay Your Course</button>
+                </ul>
+            </fieldset>
+        </form>
+        <h1>Thank you for choosing us! 
+        <br> We are happy to be part of your process.</h1>
+        <footer>
+            <div class="contact">
+                📍 Stock Market Trading Academy
+                <br />
+                20 Paseo Tropical <br />
+                Villahermosa, Tabasco 22886 <br />
+                ☎ 266-16-42
+                <br />
+                ✉ stocktradingacademy@market.com
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com" title="This links to our Facebook Page. Follow Us."><img
+                        src="images/facebook-icon.png" alt="Facebook Icon" /></a>
+                <a href="https://www.twitter.com" title="This links to our Twitter Account. Follow Us."><img
+                        src="images/twitter-icon.png" alt="Twitter Icon" /></a>
+                <a href="https://www.instagram.com" title="This links to our Instagram Account. Follow Us."><img
+                        src="images/instagram-icon.png" alt="Instagram Icon" /></a>
+            </div>
+            <p class="copyright">
+                Temple Inn & Suites | All Rights Reserved Privacy and Cookie Statement |
+                Giselle Lopez Garcia
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
