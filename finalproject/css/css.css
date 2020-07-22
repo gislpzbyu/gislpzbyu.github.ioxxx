@@ -1,7 +1,18 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --accent1-color: #d40000;
+    --accent2-color: rgb(42, 42, 192);
+    --other-color: #6d6d6d;
+    --heading-font: 'Lalezar', cursive;
+    --paragraph-font: 'Nunito';
+}
+
+
 body {
     font-size: 16px;
-    background-color: black;
-    font-family: 'Roboto, Noto Sants, Baloo';
+    background-color: var(--secondary-color);
+    font-family: var(--paragraph-font);
     overflow: hidden scroll;
 
 }
@@ -11,16 +22,17 @@ main,
 footer {
     max-width: 960px;
     margin: 0 auto;
-    font-family: 'Roboto, Noto Sants, Baloo';
     border-radius: 15px;
 
 }
 
+p {
+    text-align: justify;
+}
 
 header {
-    background-color: red;
-    color: #283845;
-    font-family: 'Roboto, Noto Sants, Baloo';
+    background-color: var(--accent1-color);
+    color: var(--other-color);
     font-size: 22px;
     display: flex;
     align-items: center;
@@ -30,12 +42,20 @@ header {
 }
 
 main {
-    background-color: #ffffff;
+    background-color: var(--primary-color);
 }
 
+
 h1 {
-    color: white;
-    font-family: 'Roboto, Noto Sants, Baloo';
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
     text-align: center;
 }
 
@@ -47,85 +67,61 @@ header nav ul {
 
 
 header nav ul li a {
-    color: #420000;
+    color: var(--secondary-color);
     text-decoration: none;
     font-size: 1.1rem;
-    font-family: 'Roboto, Noto Sants, Baloo';
     display: block;
     padding: .5rem;
 }
 
-a:focus,
-.active {
-    color: black;
-    border-bottom: 1px solid #F2BA49;
+a:focus {
+    color: --secondary-color;
+    border-bottom: 1px solid var(--secondary-color);
     padding-bottom: .2rem;
 
 }
 
 
+
 header nav ul li a:hover {
-    color: black;
+    color: var(--secondary-color);
 }
 
+
+/*From  Peer Review: Final - Evaluate Home Page*/
 .banner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../images/hero.jpg);
 }
 
 
-.banner img {
-    grid-column: 1 / -1;
-    grid-row: 1;
-    width: 100%;
-    height: 250px;
-    border-radius: 15px;
-}
 
-h1 {
-    color: black;
-}
 
 .courses {
     display: grid;
     grid-template-rows: 1fr;
 }
 
-.courses h1 {
-    text-align: center;
-}
-
-.cardBeginners img {
-    max-width: 100%;
-}
-
-.cardIntermedium img {
-    max-width: 100%;
-}
-
-.cardAdvanced img {
-    max-width: 100%;
-}
-
 .cardBeginners {
     display: grid;
     width: 320px;
-    box-shadow: 1px 1px 4px 1px #888;
+    box-shadow: 1px 1px 4px 1px var(--other-color);
     border-radius: 3px;
-    background-color: white;
+    background-color: var(--primary-color);
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
     grid-row: 1/1;
 }
 
 .cardIntermedium {
     display: grid;
     width: 320px;
-    box-shadow: 1px 1px 4px 1px #888;
+    box-shadow: 1px 1px 4px 1px var(--other-color);
     border-radius: 3px;
-    background-color: white;
+    background-color: var(--primary-color);
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
     grid-row: 1/2;
 }
 
@@ -134,9 +130,8 @@ h1 {
     width: 320px;
     box-shadow: 1px 1px 4px 1px #888;
     border-radius: 3px;
-    background-color: white;
+    background-color: var(--primary-color);
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
     grid-row: 1/2;
 }
 
@@ -171,8 +166,8 @@ footer {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    background-color:greenyellow;
-    font-family: 'Roboto, Noto Sants, Baloo';
+    background-color: var(--accent2-color);
+    font-family: var(--paragraph-font);
     font-size: 20px;
     padding: .8rem;
 }
@@ -196,18 +191,16 @@ footer {
 .whoWeAre img {
     margin: 50px;
     width: 50%;
-    border: 5px solid #ff0000;
+    border: 5px solid var(--accent1-color);
 }
 
 .whereInvest {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: justify;
 }
 
-.whereInvest h1 {
-    text-align: center;
-}
 
 .wrapper p {
     text-align: justify;
@@ -225,19 +218,19 @@ footer {
 
 .forex img {
     max-width: 100%;
-}   
+}
 
 .stocks img {
     max-width: 100%;
 }
+
 .futures {
     display: grid;
     width: 240px;
     box-shadow: 1px 1px 4px 1px #888;
     border-radius: 3px;
-    background-color: white;
+    background-color: var(--primary-color);
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
     grid-row: 1/1;
 }
 
@@ -246,31 +239,28 @@ footer {
     width: 240px;
     box-shadow: 1px 1px 4px 1px #888;
     border-radius: 3px;
-    background-color: white;
+    background-color: var(--primary-color);
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
     grid-row: 1/2;
 }
 
 .forex {
     display: grid;
     width: 240px;
-    box-shadow: 1px 1px 4px 1px #888;
+    box-shadow: 1px 1px 4px 1px var(--other-color);
     border-radius: 3px;
-    background-color: white;
+    background-color: var(--primary-color);
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
     grid-row: 1/2;
 }
 
 .stocks {
     display: grid;
     width: 240px;
-    box-shadow: 1px 1px 4px 1px #888;
+    box-shadow: 1px 1px 4px 1px var(--other-color);
     border-radius: 3px;
-    background-color: white;
+    background-color: var(--primary-color);
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
     grid-row: 1/2;
 }
 
@@ -298,17 +288,39 @@ footer {
     padding: 2em;
 }
 
-#name, #mail, #number, #cardname, #cardnumber, #expirationdate, #location, #cardtype, #coursetype, #phone  {
+#name,
+#mail,
+#number,
+#cardname,
+#cardnumber,
+#expirationdate,
+#location,
+#cardtype,
+#coursetype,
+#phone {
     padding: 0.5em;
     display: flex;
 
 }
 
-.form, .message {
-    font-size: 1em;
-}
-
-.time {
+.price {
     text-align: right;
     padding: 1em;
+}
+
+@media screen and (max-width: 550px) {
+
+    body,
+    header,
+    main,
+    footer,
+    .banner,
+    .wrapper,
+    .courses,
+    .active,
+    .whereInvest,
+    .message,
+    .whoWeAre {
+        display: block;
+    }
 }
