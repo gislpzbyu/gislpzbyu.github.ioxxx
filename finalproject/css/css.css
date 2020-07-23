@@ -208,9 +208,11 @@ footer {
 }
 
 .copyright {
-    grid-column: 1/4;
-    align-items: center;
-    padding-left: 100px;
+    display: grid;
+    align-items: center ;
+    grid-column: 1/5;
+    padding-left: 80px;
+    font-size: 17px;
 }
 
 .whoWeAre img {
