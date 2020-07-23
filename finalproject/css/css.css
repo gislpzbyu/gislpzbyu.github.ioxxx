@@ -41,7 +41,8 @@ header {
 
 }
 
-main {
+
+main {  
     background-color: var(--primary-color);
 }
 
@@ -74,18 +75,42 @@ header nav ul li a {
     padding: .5rem;
 }
 
-a:focus {
+/*a:focus {
     color: --secondary-color;
     border-bottom: 1px solid var(--secondary-color);
     padding-bottom: .2rem;
 
+}*/
+
+nav {
+    display: inline;
+    padding: 1px;
 }
 
-
-
-header nav ul li a:hover {
-    color: var(--secondary-color);
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 29px 10px 0 10px;
+    padding: 0;
 }
+
+nav ul a {
+    border-radius: 3px 3px 0 0;
+    color: var(--accent3-color);
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
+}
+
+.active {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color)
+}
+
 
 
 /*From  Peer Review: Final - Evaluate Home Page*/
